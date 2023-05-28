@@ -1,7 +1,6 @@
 name: Run Unit Tests
 
-on:
-  push:
+on: push
 
 jobs:
   test:
@@ -20,4 +19,4 @@ jobs:
         run: npm ci
 
       - name: Run unit tests
-        run: npm test_ci
+        run: npm run test_ci
