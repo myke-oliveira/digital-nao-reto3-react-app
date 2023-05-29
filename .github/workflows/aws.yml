@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: create-react-app
   ECS_SERVICE: react-service
   ECS_CLUSTER: react-cluster
-  ECS_TASK_DEFINITION: react-task-definitions:1
+  ECS_TASK_DEFINITION: .aws/task-definitions.json
 
   CONTAINER_NAME: create-react-app
 
