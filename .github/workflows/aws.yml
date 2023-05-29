@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: create-react-app
   ECS_SERVICE: MY_ECS_SERVICE                 # set this to your Amazon ECS service name
   ECS_CLUSTER: react-cluster
-  ECS_TASK_DEFINITION: react-task-definitions
+  ECS_TASK_DEFINITION: react-task-definitions:1
 
   CONTAINER_NAME: create-react-app
 
