@@ -33,7 +33,7 @@ on:
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: create-react-app
-  ECS_SERVICE: react-service
+  ECS_SERVICE: react-server
   ECS_CLUSTER: react-cluster
   ECS_TASK_DEFINITION: .aws/task-definitions.json
 
